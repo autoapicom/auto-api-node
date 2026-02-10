@@ -1,7 +1,7 @@
 # auto-api-client-typescript
 
-[![npm version](https://img.shields.io/npm/v/@auto-api/client)](https://www.npmjs.com/package/@auto-api/client)
-[![Node version](https://img.shields.io/node/v/@auto-api/client)](https://www.npmjs.com/package/@auto-api/client)
+[![npm version](https://img.shields.io/npm/v/@auto-api/client)](https://npmjs.com/package/@auto-api/client)
+[![Node version](https://img.shields.io/node/v/@auto-api/client)](https://npmjs.com/package/@auto-api/client)
 [![License](https://img.shields.io/npm/l/@auto-api/client)](LICENSE)
 
 TypeScript client for the [auto-api.com](https://auto-api.com) car listings API. Zero dependencies — uses the built-in `fetch`.
@@ -61,7 +61,7 @@ const nextBatch = await client.getChanges('encar', changes.meta.next_change_id);
 ### Get offer by URL
 
 ```typescript
-const info = await client.getOfferByUrl('https://www.encar.com/dc/dc_cardetailview.do?carid=40427050');
+const info = await client.getOfferByUrl('https://encar.com/dc/dc_cardetailview.do?carid=40427050');
 ```
 
 ### Error handling
@@ -85,14 +85,14 @@ try {
 
 | Source | Platform | Region |
 |--------|----------|--------|
-| `encar` | [encar.com](https://www.encar.com) | South Korea |
-| `mobilede` | [mobile.de](https://www.mobile.de) | Germany |
-| `autoscout24` | [autoscout24.com](https://www.autoscout24.com) | Europe |
-| `che168` | [che168.com](https://www.che168.com) | China |
-| `dongchedi` | [dongchedi.com](https://www.dongchedi.com) | China |
-| `guazi` | [guazi.com](https://www.guazi.com) | China |
-| `dubicars` | [dubicars.com](https://www.dubicars.com) | UAE |
-| `dubizzle` | [dubizzle.com](https://www.dubizzle.com) | UAE |
+| `encar` | [encar.com](https://encar.com) | South Korea |
+| `mobilede` | [mobile.de](https://mobile.de) | Germany |
+| `autoscout24` | [autoscout24.com](https://autoscout24.com) | Europe |
+| `che168` | [che168.com](https://che168.com) | China |
+| `dongchedi` | [dongchedi.com](https://dongchedi.com) | China |
+| `guazi` | [guazi.com](https://guazi.com) | China |
+| `dubicars` | [dubicars.com](https://dubicars.com) | UAE |
+| `dubizzle` | [dubizzle.com](https://dubizzle.com) | UAE |
 
 ## Other languages
 
