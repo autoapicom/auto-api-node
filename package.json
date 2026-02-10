@@ -1,7 +1,7 @@
 {
     "name": "@auto-api/client",
     "version": "1.0.0",
-    "description": "TypeScript client for auto-api.com — car listings API across multiple marketplaces",
+    "description": "Auto-api.com client for Node.js — fetch car listings from encar, mobile.de, autoscout24 and 5 other sources",
     "type": "module",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -40,6 +40,10 @@
         "dubicars api",
         "dubizzle api"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/autoapicom/auto-api-node.git"
+    },
     "homepage": "https://auto-api.com",
     "author": "AUTO-API.COM <access@auto-api.com>",
     "license": "MIT",

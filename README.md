@@ -4,9 +4,9 @@
 [![Node version](https://img.shields.io/node/v/@auto-api/client)](https://www.npmjs.com/package/@auto-api/client)
 [![License](https://img.shields.io/npm/l/@auto-api/client)](LICENSE)
 
-TypeScript client for [auto-api.com](https://auto-api.com) — car listings API across multiple marketplaces.
+TypeScript client for the [auto-api.com](https://auto-api.com) car listings API. Zero dependencies — uses the built-in `fetch`.
 
-One API to access car listings from 8 marketplaces: encar, mobile.de, autoscout24, che168, dongchedi, guazi, dubicars, dubizzle. Search offers, track price changes, and get listing data in a unified format.
+Search and filter offers across 8 marketplaces (encar, mobile.de, autoscout24, che168, dongchedi, guazi, dubicars, dubizzle), track price changes, pull individual listings by ID or URL.
 
 ## Installation
 
