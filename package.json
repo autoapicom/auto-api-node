@@ -1,0 +1,49 @@
+{
+    "name": "@auto-api/client",
+    "version": "1.0.0",
+    "description": "TypeScript client for auto-api.com — car listings API across multiple marketplaces",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "tsc"
+    },
+    "keywords": [
+        "auto-api",
+        "api-client",
+        "car-listings",
+        "encar",
+        "mobile-de",
+        "autoscout24",
+        "typescript-api-client",
+        "car-auction",
+        "scraper",
+        "encar api",
+        "mobile.de api",
+        "autoscout24 api",
+        "che168 api",
+        "dongchedi api",
+        "guazi api",
+        "dubicars api",
+        "dubizzle api"
+    ],
+    "homepage": "https://auto-api.com",
+    "author": "AUTO-API.COM <access@auto-api.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
