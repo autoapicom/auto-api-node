@@ -6,7 +6,7 @@
  * Run: npx tsx examples/example.ts
  */
 
-import { Client, AuthError, ApiError } from '@auto-api/client';
+import { Client, AuthError, ApiError } from '@autoapicom/client';
 
 const client = new Client('your-api-key');
 const source = 'encar';
