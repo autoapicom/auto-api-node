@@ -1,14 +1,14 @@
-# @auto-api/client
+# @autoapicom/client
 
 > TypeScript client for auto-api.com — car listings API from 8 automotive marketplaces (encar, mobile.de, autoscout24, che168, dongchedi, guazi, dubicars, dubizzle).
 
 ## Install
 
-npm install @auto-api/client
+npm install @autoapicom/client
 
 ## Quick Start
 
-import { Client } from '@auto-api/client';
+import { Client } from '@autoapicom/client';
 const client = new Client('your-api-key');
 const offers = await client.getOffers('encar', { page: 1, brand: 'BMW' });
 
