@@ -5,11 +5,11 @@ TypeScript client for [auto-api.com](https://auto-api.com) — car listings API 
 ## Quick Start
 
 ```bash
-npm install @auto-api/client
+npm install @autoapicom/client
 ```
 
 ```typescript
-import { Client } from '@auto-api/client';
+import { Client } from '@autoapicom/client';
 
 const client = new Client('your-api-key');
 const offers = await client.getOffers('encar', { page: 1, brand: 'BMW' });

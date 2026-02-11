@@ -1,8 +1,8 @@
 # auto-api-client-typescript
 
-[![npm version](https://img.shields.io/npm/v/@auto-api/client)](https://npmjs.com/package/@auto-api/client)
-[![Node version](https://img.shields.io/node/v/@auto-api/client)](https://npmjs.com/package/@auto-api/client)
-[![License](https://img.shields.io/npm/l/@auto-api/client)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/@autoapicom/client)](https://npmjs.com/package/@autoapicom/client)
+[![Node version](https://img.shields.io/node/v/@autoapicom/client)](https://npmjs.com/package/@autoapicom/client)
+[![License](https://img.shields.io/npm/l/@autoapicom/client)](LICENSE)
 
 TypeScript client for the [auto-api.com](https://auto-api.com) car listings API. Zero dependencies — uses the built-in `fetch`.
 
@@ -11,13 +11,13 @@ Search and filter offers across 8 marketplaces (encar, mobile.de, autoscout24, c
 ## Installation
 
 ```bash
-npm install @auto-api/client
+npm install @autoapicom/client
 ```
 
 ## Usage
 
 ```typescript
-import { Client } from '@auto-api/client';
+import { Client } from '@autoapicom/client';
 
 const client = new Client('your-api-key');
 ```
@@ -67,7 +67,7 @@ const info = await client.getOfferByUrl('https://encar.com/dc/dc_cardetailview.d
 ### Error handling
 
 ```typescript
-import { Client, AuthError, ApiError } from '@auto-api/client';
+import { Client, AuthError, ApiError } from '@autoapicom/client';
 
 try {
     const offers = await client.getOffers('encar', { page: 1 });
@@ -98,8 +98,8 @@ try {
 
 | Language | Package |
 |----------|---------|
-| PHP | [auto-api/client](https://github.com/autoapicom/auto-api-php) |
-| Python | [auto-api-client](https://github.com/autoapicom/auto-api-python) |
+| PHP | [autoapi/client](https://github.com/autoapicom/auto-api-php) |
+| Python | [autoapicom-client](https://github.com/autoapicom/auto-api-python) |
 | Go | [auto-api-go](https://github.com/autoapicom/auto-api-go) |
 | C# | [AutoApi.Client](https://github.com/autoapicom/auto-api-dotnet) |
 | Java | [auto-api-client](https://github.com/autoapicom/auto-api-java) |
