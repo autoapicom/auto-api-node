@@ -1,6 +1,6 @@
 {
     "name": "@autoapicom/client",
-    "version": "1.0.2",
+    "version": "1.0.5",
     "description": "Auto-api.com client for Node.js — fetch car listings from encar, mobile.de, autoscout24 and 5 other sources",
     "type": "module",
     "main": "dist/index.js",
