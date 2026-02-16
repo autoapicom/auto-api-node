@@ -8,7 +8,7 @@
 
 import { Client, AuthError, ApiError } from '@autoapicom/client';
 
-const client = new Client('your-api-key');
+const client = new Client('your-api-key', 'https://api1.auto-api.com');
 const source = 'encar';
 
 // --- Get available filters ---
@@ -76,7 +76,7 @@ console.log(`${info.mark} ${info.model} ${info.year} — $${info.price}`);
 // --- Error handling ---
 
 try {
-    const badClient = new Client('invalid-key');
+    const badClient = new Client('invalid-key', 'https://api1.auto-api.com');
     await badClient.getOffers('encar', { page: 1 });
 } catch (e) {
     if (e instanceof AuthError) {

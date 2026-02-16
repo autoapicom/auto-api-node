@@ -6,7 +6,7 @@ export class Client {
     private readonly apiVersion: string;
     private readonly timeout: number;
 
-    constructor(apiKey: string, baseUrl: string = 'https://auto-api.com', apiVersion: string = 'v2') {
+    constructor(apiKey: string, baseUrl: string = 'https://api1.auto-api.com', apiVersion: string = 'v2') {
         this.apiKey = apiKey;
         this.baseUrl = baseUrl.replace(/\/+$/, '');
         this.apiVersion = apiVersion;

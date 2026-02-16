@@ -11,7 +11,7 @@ npm install @autoapicom/client
 ```typescript
 import { Client } from '@autoapicom/client';
 
-const client = new Client('your-api-key');
+const client = new Client('your-api-key', 'https://api1.auto-api.com');
 const offers = await client.getOffers('encar', { page: 1, brand: 'BMW' });
 ```
 
