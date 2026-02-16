@@ -19,6 +19,7 @@
     ],
     "scripts": {
         "build": "tsc",
+        "test": "vitest run",
         "prepublishOnly": "tsc"
     },
     "keywords": [
@@ -48,6 +49,7 @@
     "author": "AUTO-API.COM <access@auto-api.com>",
     "license": "MIT",
     "devDependencies": {
-        "typescript": "^5.0.0"
+        "typescript": "^5.0.0",
+        "vitest": "^3.0.0"
     }
 }
